@@ -1,0 +1,10 @@
+# 指定文件使用 LF 作为行尾换行符
+*.txt text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+
+# 指定文件使用 CRLF 作为行尾换行符
+*.bat text eol=crlf
+*.exe binary
+*.dll binary
